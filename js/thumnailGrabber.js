@@ -120,7 +120,7 @@ var addButton = function(){
 }
 
 // waiting some time before execution
-setTimeout(addButton, 500);
+setTimeout(addButton, 1000);
 
 
 chrome.runtime.onMessage.addListener(

@@ -23,5 +23,5 @@
 			"matches": ["*://*.youtube.com/*"]
 		}
 	],
-	"permissions": ["tabs", "webNavigation"]
+	"permissions": ["tabs"]
 }
