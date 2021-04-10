@@ -1,0 +1,23 @@
+{
+	"name": "Youtube Thumbnail Grabber",
+	"description": "Grabs thumbnails from a youtube video",
+	"version": "1.0",
+	"manifest_version": 3,
+	"icons": 
+	{ 
+	   "256": "icon/icon256px.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://www.youtube.com/*"],
+			"js": ["js/thumnailGrabber.js"],
+			"css": ["styles/style.css"]
+		}
+	],
+	"web_accessible_resources":[
+		{
+			"resources": ["icon/icon256px.png", "js/thumnailGrabber.js", "styles/style.css"],
+			"matches": ["https://www.youtube.com/*"]
+		}
+	  ]
+}

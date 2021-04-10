@@ -1,0 +1,8 @@
+.thumbGrabImage {
+    height: 65%;
+    top: -15%;
+    bottom: 0px;
+    position: relative;
+    display: block;
+    margin: auto
+}
